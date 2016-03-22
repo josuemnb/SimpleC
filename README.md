@@ -3,12 +3,11 @@ C with classes and generics
 
 Code like java or c++ but in c pure code.
 
-#include "simple.h"
-#include "Vector.h"
-#include "Map.h"
+##include "simple.h"
+##include "Vector.h"
+##include "Map.h"
 
 void main() {
-//
 	Vector(string) *vi = new(Vector,string);
 	for(int i=0;i<10;i++)
 		vi->add(StringUtils.valueInt(i));
